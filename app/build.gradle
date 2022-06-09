@@ -39,7 +39,7 @@ android {
         debug {
             keyAlias 'jenkins'
             keyPassword '1qaz2wsx'
-            storeFile file('jenkins.keystores')
+            storeFile file('jenkins.keystore')
             storePassword '1qaz2wsx'
         }
     }
