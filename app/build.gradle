@@ -3,18 +3,24 @@ plugins {
 }
 
 android {
-    compileSdk 32
+//    compileSdk 32
+//
+//    defaultConfig {
+//        applicationId "com.mpaas.jenkindemo"
+//        minSdk 29
+//        targetSdk 32
+//        versionCode 1
+//        versionName "1.0"
+//
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//    }
+    compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.mpaas.jenkindemo"
-        minSdk 29
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        applicationId "com.ebchina.efamily"
+        minSdkVersion 21
+        targetSdkVersion 28
     }
-
     buildTypes {
         release {
             minifyEnabled false
